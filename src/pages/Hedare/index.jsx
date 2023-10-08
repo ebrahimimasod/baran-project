@@ -1,8 +1,9 @@
 import React from "react";
 import { useState } from "react";
 import Button from "@/components/Button";
-
-export default function Index(props) {
+/* import image from "@/imgs/imge1png.png";
+ */
+export default function Index() {
   return (
     <>
       <nav
@@ -158,11 +159,8 @@ export default function Index(props) {
           </p>
         </div>
       </section>
-      {/* box jalaste*/}
-      <section
-        style={{ width: "1136px", height: "516px", margin: "0px auto" }}
-        className="grid grid-rows-2  "
-      >
+      {/* section1 blue=> jalaste*/}
+      <section style={{ width: "1136px", height: "516px", margin: "0px auto" }}>
         <div
           className="grid grid-rows-2 "
           style={{
@@ -299,9 +297,73 @@ export default function Index(props) {
               </div>
             </div>
           </div>
+          {/*row2*/}
+          <div
+            style={{ width: "1,072px", height: "256px", marginTop: "-80px" }}
+          >
+            <p className="text-2xl	font-extrabold	leading-10	text-right	text-[#FFFFFF] mr-14">
+              0 تا 100 جاوااسکریپت
+            </p>
+            <p className="text-sm		font-normal	leading-10	text-right	text-[#FFFFFF] mr-12">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+              استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
+              نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+              کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+              جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای
+              طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
+              فارسی ایجاد کرد
+            </p>
+          </div>
         </div>
       </section>
-      <section>222222222222222</section>
+      {/* section2 wite=> Introduction of the teacher*/}
+      <section
+        className="h-36 mt-24"
+        style={{
+          width: "1136px",
+          height: "516px",
+          margin: "0px auto",
+          backgroundColor: "gray",
+          marginTop: "100px",
+        }}
+      >
+        <div class="grid grid-cols-2  m-auto">
+          <div
+            style={{
+              width: "350px",
+              height: "300px",
+              borderRadius: "10px 80px 10px 10px",
+              backgroundColor: "#DEE0FF",
+              marginRight: "20px",
+            }}
+          >
+           {/*  <img
+              style={{ width: "100%", height: "200px" }}
+              src={image}
+              alt=""
+            /> */}
+          </div>
+          <div>
+            <p className="text-2xl text-center	 font-extrabold	text-[#1B1B1F]	">
+              مدرس این دوره
+            </p>
+            <p className="text-base text-center	 leading-8		 font-extrabold	text-[#1B1B1F]	">
+              علیرضا رزاقی طاهری <br />
+              مدرس دوره های مختلف جاوااسکریپت
+              <br />
+              برنامه نویس پایتون، جاوااسکریپت،PHP
+              <br />
+              10سال سابقه برنامه نویس <br />
+              مهندسی نرم افزار و ارشد MBM{" "}
+            </p>
+            {/* <Button  value="مشاهده رزومه"bgcolor="#2748EF" color="#FFFFFF" width="100px" height="30px"
+            fontSize="10px"
+             /> */}
+          </div>
+        </div>
+      </section>
+      jjjjjjjjjjjjjjjjjjj
     </>
   );
 }
