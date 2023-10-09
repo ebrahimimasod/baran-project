@@ -338,7 +338,7 @@ export default function Index() {
               marginRight: "20px",
             }}
           >
-           {/*  <img
+            {/*  <img
               style={{ width: "100%", height: "200px" }}
               src={image}
               alt=""
@@ -363,7 +363,7 @@ export default function Index() {
           </div>
         </div>
       </section>
-      jjjjjjjjjjjjjjjjjjj
+      <section>سوم</section>
     </>
   );
 }
