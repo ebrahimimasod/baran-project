@@ -11,6 +11,8 @@ export default function index(props) {
         height: props.height,
         fontSize: props.fontSize,
         marginTop: props.marginTop,
+        marginRight: props.marginRight,
+        border: props.border
       }}
     >
       {props.value}

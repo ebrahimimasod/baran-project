@@ -322,13 +322,12 @@ export default function Index() {
         className="h-36 mt-24"
         style={{
           width: "1136px",
-          height: "516px",
+          height: "368px",
           margin: "0px auto",
-          backgroundColor: "gray",
-          marginTop: "100px",
+          /* backgroundColor: "gray", */
         }}
       >
-        <div class="grid grid-cols-2  m-auto">
+        <div class="grid grid-cols-2  m-auto mt-24">
           <div
             style={{
               width: "350px",
@@ -344,11 +343,11 @@ export default function Index() {
               alt=""
             /> */}
           </div>
-          <div>
-            <p className="text-2xl text-center	 font-extrabold	text-[#1B1B1F]	">
+          <div className="leading-8">
+            <p className="text-2xl text-center font-extrabold	text-[#1B1B1F]	">
               مدرس این دوره
             </p>
-            <p className="text-base text-center	 leading-8		 font-extrabold	text-[#1B1B1F]	">
+            <p className="text-xs	 text-center	 leading-8		 font-extrabold	text-[#1B1B1F]	">
               علیرضا رزاقی طاهری <br />
               مدرس دوره های مختلف جاوااسکریپت
               <br />
@@ -357,13 +356,229 @@ export default function Index() {
               10سال سابقه برنامه نویس <br />
               مهندسی نرم افزار و ارشد MBM{" "}
             </p>
-            {/* <Button  value="مشاهده رزومه"bgcolor="#2748EF" color="#FFFFFF" width="100px" height="30px"
-            fontSize="10px"
-             /> */}
+            <Button
+              value="مشاهده رزومه"
+              bgcolor="#2748EF"
+              color="#FFFFFF"
+              width="100px"
+              height="30px"
+              fontSize="10px"
+              marginRight="40%"
+              marginTop="20px"
+            />
           </div>
         </div>
       </section>
-      <section>سوم</section>
+      {/* section tree=>whate Learn Javascript?*/}
+      <section
+        className="h-36 mt-24"
+        style={{
+          width: "1136px",
+          height: "516px",
+          margin: "0px auto",
+          marginTop: "100px",
+        }}
+      >
+        <div class="grid grid-rows-1 grid-flow-col gap-4">
+          <div class="col-span-2 ...">
+            <div
+              className="rounded-lg"
+              style={{
+                width: "848px",
+                height: "368px",
+                backgroundColor: "#FBF8FD",
+              }}
+            >
+              <p className="text-sm		pt-20	leading-10	">
+                همان طور که می دانید جاوااسکریپت یکی از زبان های برنامه نویسی
+                محبوب و پرطرفدار است که بازار کار فوق العاده دارد.جاوااسکریپت
+                ابتدا با هدف استفاده در ظاهر وب سایت ایجاد شد اما با پیشرفت
+                چشمگیری که داشته، امروزه برای توسعه اپلیکیشن اندروید، IOS، سمت
+                سرور و ... استفاده می‌شود.شما میتوانبد بعد از یادگیری
+                جاوااسکریپت به راحتی با فریمورک های جاوااسکریپت مثل ریکت
+                نیتیو،ویو، ویکس و... به توسعه اپلیکیشن های اندروید و IOS
+                بپردازید. به این شکل که یک بار کد بنویسید و هم خروجی اندروید و
+                هم خروجی IOS بگیرید.
+              </p>
+              <Button
+                value="مشاهده بیشتر"
+                color="#2748EF"
+                border="1px solid #767680"
+                width="100px"
+                height="30px"
+                fontSize="10px"
+                marginRight="40%"
+                marginTop="20px"
+              />
+            </div>
+          </div>
+          <div class="row-span-3 ...">
+            <div
+              className="rounded-lg"
+              style={{
+                width: "272px",
+                height: "368px",
+                backgroundColor: "#DEE0FF",
+              }}
+            >
+              <p className="text-center	text-[#000F5D]	font-normal	text-2xl		pt-20	leading-10	">
+                چرا
+                <br/>
+                <span className="font-bold	">
+                جاوااسکریپت
+                </span>
+                <br/>
+                یادبگیریم؟
+                </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* section Fore=>vidue demo*/}
+      <section
+        className="h-36 mt-24 bg-amber-400	"
+        style={{
+          width: "1136px",
+          height: "516px",
+          margin: "0px auto",
+        }}
+      >
+        <div class="grid grid-row-2 gap-4">
+          <div className="flex justify-center"
+            style={{
+              width: "1,136px",
+              height: "96px",
+              padding: "16px",
+            }}
+          >
+            <svg class="h-8 w-8 text-blue-500 mt-5 ml-2"  viewBox="0 0 24 24"  fill="#2748EF"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <polygon points="23 7 16 12 23 17 23 7" />  <rect x="1" y="5" width="15" height="14" rx="2" ry="2" /></svg>
+            <p className="font-extrabold	text-2xl	text-center	 mt-5">دمو جلسه</p>
+            
+          </div>
+          {/* section-five=> boxs=>trees */}
+          <div className="flex justify-center">
+            <div
+              className="rounded-lg"
+              style={{
+                width: "524px",
+                height: "200px",
+                padding: "16px",
+                backgroundColor: "green",
+                opacity: "50%",
+                marginTop: "11%",
+              }}
+            >
+              <div
+                className="rounded-lg"
+                style={{
+                  width: "150%",
+                  margin: "0px auto",
+                  marginRight: "40%",
+                  height: " 350px",
+                  marginTop: "-25%",
+                  backgroundColor: "gray",
+                }}
+              ></div>
+            </div>
+            <div
+              className="rounded-lg"
+              style={{
+                width: "524px",
+                height: "200px",
+                padding: "16px",
+                backgroundColor: "blue",
+                opacity: "50%",
+                marginTop: "11%",
+              }}
+            ></div>
+          </div>
+        </div>
+      </section>
+      {/* section six=> Course title*/}
+      <section
+        className="h-36 mt-24  bg-[#FBF8FD]"
+        style={{
+          width: "1136px",
+          height: "516px",
+          margin: "0px auto",
+          marginTop: "100px",
+        }}
+      >
+        <div class="grid grid-row-2 gap-4">
+          <div
+            style={{
+              width: "1,136px",
+              height: "96px",
+              padding: "16px",
+              backgroundColor: "red",
+            }}
+          >
+       <p className="font-extrabold	text-2xl	text-center	 mt-5">سرفصل های دوره</p>
+
+          </div>
+        </div>
+      </section>
+      {/* section seven=> peshnaze*/}
+      <section
+        className="h-36 mt-24 bg-amber-400	"
+        style={{
+          width: "1136px",
+          height: "440px",
+          margin: "0px auto",
+          marginTop: "100px",
+        }}
+      ></section>
+      {/* section eight=> nazarate*/}
+      <section
+        className="h-36 mt-24 bg-[#DEE0FF]	"
+        style={{
+          width: "1136px",
+          height: "440px",
+          margin: "0px auto",
+          marginTop: "100px",
+        }}
+      ></section>
+      {/* section night=> vegi doreh*/}
+      <section
+        className="h-36 mt-24 bg-[#50d71e]	"
+        style={{
+          width: "1136px",
+          height: "792px",
+          margin: "0px auto",
+          marginTop: "100px",
+        }}
+      ></section>
+      {/* section ten=> quesion*/}
+      <section
+        className="h-36  bg-[#FBF8FD]	"
+        style={{
+          width: "1136px",
+          height: "516px",
+          margin: "0px auto",
+          marginTop: "100px",
+        }}
+      ></section>
+      {/* section eleven=> pasokh*/}
+      <section
+        className="h-36  bg-[#FBF8FD]	"
+        style={{
+          width: "1136px",
+          height: "516px",
+          margin: "0px auto",
+          marginTop: "100px",
+        }}
+      ></section>
+      {/* section twelve=> foter*/}
+      <section
+        className="h-36  bg-[#FBF8FD]	"
+        style={{
+          width: "1136px",
+          height: "456px",
+          margin: "0px auto",
+          marginTop: "100px",
+        }}
+      ></section>
+      nnnnnnnnnnnnnnnnnnnnnnnn
     </>
   );
 }
