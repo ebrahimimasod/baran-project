@@ -527,7 +527,13 @@ export default function Index() {
           margin: "0px auto",
           marginTop: "100px",
         }}
-      ></section>
+      >
+               <p style={{padingTop:"10%"}} className="font-extrabold	text-2xl	text-center	 mt-5">پیشنیازها</p>
+               <p className="text-sm	text-center		leading-10	">
+               برای یادگیری جاوا اسکریپت پیش نیاز خاصی احتیاج ندارید الا اینکه با منطق کلی برنامه نویسی آشنا باشید ، این زبان برنامه نویسی بسیار پرکاربرد جزو یکی از ساده‌ترین زبان های برنامه نویسی برای آموزش به حساب می‌آید و یادگیری آن از شما زمان کمی را می‌گیرد.
+              </p>
+
+      </section>
       {/* section eight=> nazarate*/}
       <section
         className="h-36 mt-24 bg-[#DEE0FF]	"
