@@ -3,7 +3,7 @@ export default function index(props) {
     <button
       className=" h-10	rounded-md font-normal	text-sm	leading-5	text-center	"
       style={{
-        backgroundColor: props.bgcolor,
+        backgroundColor: "red",
         padding: "0 15px",
         color: props.color,
         width: "135px",
@@ -12,7 +12,7 @@ export default function index(props) {
         fontSize: props.fontSize,
         marginTop: props.marginTop,
         marginRight: props.marginRight,
-        border: props.border
+        border: props.border,
       }}
     >
       {props.value}
